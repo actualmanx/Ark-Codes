@@ -1,0 +1,7 @@
+# Begin default subdomain redirect #
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ark-codes.tk
+RewriteRule ^(.*)$ http://www.ark-codes.tk/$1 [R=permanent,L]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# End default subdomain redirect

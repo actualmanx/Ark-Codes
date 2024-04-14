@@ -1,0 +1,79 @@
+body {
+	background-repeat: repeat;
+	background-size: cover;
+	color: #2393f7;
+}
+
+#navigation a:link {
+	color: #2393f7;
+}
+a:visited {
+	color: #2393f7;
+}
+a:hover {
+	color: #ffff00;
+}
+a:active {
+	color: #ff0000;
+}
+#container {
+    background-image:url(arklogosmall.png);
+    background-position:top;
+	background-repeat: no-repeat;
+    width:auto;
+    height:auto;
+	color: #2393f7;
+}
+p {
+  color: #2393f7;
+}
+.button {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAClJREFUeNpiFBQU5OXlZQADJmFhYQYYYPr16xeQ+vz5M4gDEYPIAwQYAJUPBptp0pKhAAAAAElFTkSuQmCC);
+  border: 2px solid #4CAF50;
+  color: #2393f7;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 250px;
+}
+.button:hover {
+	border: 2px solid red;
+}
+.button:active {
+	border: 2px solid yellow;	
+	outline: 0;
+    box-shadow: none;
+}
+
+
+
+
+input[type="button"] {
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAClJREFUeNpiFBQU5OXlZQADJmFhYQYYYPr16xeQ+vz5M4gDEYPIAwQYAJUPBptp0pKhAAAAAElFTkSuQmCC);
+    border: 2px solid #4CAF50;
+    color: #2393f7;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 250px;
+}
+
+input[type="button"]:hover {
+    border: 2px solid red;
+}
+
+input[type="button"]:active {
+    border: 2px solid yellow;
+    outline: 0;
+    box-shadow: none;
+}
