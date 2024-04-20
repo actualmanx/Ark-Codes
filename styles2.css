@@ -1,5 +1,5 @@
 body {
-	background-image: url("ark_survival_evolved_logo.jpg");
+	background-image: url("ark-survival-ascended-gaming-poster_1920x1080.jpg");
 	background-repeat: repeat;
 	background-size: cover;
 	color: #2393f7;
@@ -40,7 +40,7 @@ p {
   margin: 2px 2px;
   cursor: pointer;
   border-radius: 12px;
-  width: 250px;
+  width: 300px;
 }
 .button:hover {
 	border: 2px solid red;
